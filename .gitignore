@@ -21,6 +21,15 @@
 go.work
 
 # IDE files
-.idea/
-*.xml
 
+# VS Code
+.vscode
+
+# IntelliJ
+.idea
+
+# macOS
+.DS_Store
+
+# Go workflow dirs
+/bin
