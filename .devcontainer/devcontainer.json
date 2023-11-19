@@ -1,7 +1,7 @@
 {
   "name": "Go",
   "image": "mcr.microsoft.com/devcontainers/go:0-1.21-bullseye",
-  features: {},
+  "features": {},
   customizations: {
     "vscode": {
       "settings": {},
