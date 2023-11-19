@@ -2,7 +2,7 @@
   "name": "Go",
   "image": "mcr.microsoft.com/devcontainers/go",
   "features": {},
-  customizations: {
+  "customizations": {
     "vscode": {
       "settings": {},
       "extensions": [
