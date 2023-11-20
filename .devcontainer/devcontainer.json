@@ -1,7 +1,16 @@
 {
   "name": "Go",
   "image": "mcr.microsoft.com/devcontainers/go",
-  "features": {},
+  "features": {
+    "ghcr.io/eitsupi/devcontainer-features/jq-likes:1": {
+      "jqVersion": "latest",
+      "yqVersion": "4",
+      "gojqVersion": "latest",
+      "xqVersion": "none"
+    },
+    "ghcr.io/guiyomh/features/golangci-lint:0": {},
+    "ghcr.io/guiyomh/features/goreleaser:0": {},
+  },
   "customizations": {
     "vscode": {
       "settings": {},
@@ -10,6 +19,8 @@
         "github.copilot",
         "github.copilot-chat",
         "esbenp.prettier-vscode",
+        "mutantdino.resourcemonitor",
+        "zhuangtongfa.Material-theme",
         "vscode-icons-team.vscode-icons",
         "ms-vscode-remote.remote-containers",
       ]
